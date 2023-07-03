@@ -39,9 +39,9 @@ function_list = [
                     "enum": ["SD", "DD", "BD"],
                 },
             },
-            "required":["busNumber", "nextTiming","load", "vehicleType"],
+            "required":["busNumber", "busStopCode", "nextTiming", "load", "vehicleType"],
         },
-    }
+    }, 
 ]
 
 # To get the bus number from the API
